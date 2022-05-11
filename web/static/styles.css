@@ -1,0 +1,75 @@
+h1,h2 {
+    text-align: center;
+}
+
+img {
+    width: 12%;
+    height: 16%;
+}
+
+
+.color-label {
+    list-style-type: none;
+}
+
+body {
+
+    background: linear-gradient(white, antiquewhite) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.color-button {
+
+    width: 12%;
+    height: 12%;
+    cursor: pointer;
+    margin: 3% auto;
+    padding: 3%;
+    color: white;
+    text-align: center;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+}
+
+.color-button-red {
+    background: linear-gradient(rgb(213, 57, 57), rgb(112, 28, 28));
+}
+
+.color-button-red:hover {
+    background: linear-gradient(rgb(249, 75, 75), rgb(139, 20, 20));
+    color: black;
+
+}
+
+.color-button-green {
+    background: linear-gradient(rgb(70, 180, 40), rgb(45, 116, 26));
+}
+
+.color-button-green:hover {
+
+    background: linear-gradient(rgb(107, 232, 72), rgb(43, 109, 25));
+    color: black;
+
+}
+
+.color-button-blue {
+    background: linear-gradient(rgb(51, 162, 202), rgb(26, 86, 108));
+
+}
+
+.color-button-blue:hover {
+
+    background: linear-gradient(rgb(59, 195, 245), rgb(26, 101, 128));
+    color: black;
+
+}
+
+.displayBox {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
